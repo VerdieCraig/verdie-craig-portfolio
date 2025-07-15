@@ -31,9 +31,8 @@ export default function Hero() {
             />
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="text-slate-800">Hi, I'm </span>
-            <span className="text-primary">Verdie Craig</span>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-slate-800">
+            Hi, I'm Verdie Craig
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-2xl mx-auto">
