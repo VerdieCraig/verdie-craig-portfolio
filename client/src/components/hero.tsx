@@ -25,7 +25,7 @@ export default function Hero() {
           {/* Professional headshot */}
           <div className="w-32 h-32 rounded-full mx-auto mb-8 overflow-hidden shadow-2xl border-4 border-white">
             <img
-              src="https://images.unsplash.com/photo-1494790108755-2616b332c5d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+              src="/attached_assets/portfoliopic_1752558584991.jpg"
               alt="Verdie Craig - Professional Headshot"
               className="w-full h-full object-cover"
             />
