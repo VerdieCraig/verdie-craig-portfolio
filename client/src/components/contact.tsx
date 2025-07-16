@@ -17,20 +17,41 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    });
+
+    if (response.ok) {
       toast({
         title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
+        description: "Thanks! I'll be in touch soon.",
       });
       setFormData({ name: "", email: "", subject: "", message: "" });
-      setIsSubmitting(false);
-    }, 1000);
-  };
+    } else {
+      toast({
+        title: "Error",
+        description: "Failed to send your message. Try again later.",
+      });
+    }
+  } catch (err) {
+    toast({
+      title: "Error",
+      description: "There was a problem sending your message.",
+    });
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -47,7 +68,7 @@ export default function Contact() {
           
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-semibold mb-6">Let's Connect!</h3>
               <p className="text-slate-600 mb-8">
                 I'm always interested in discussing new opportunities, collaborating on projects, or just connecting with fellow developers. Feel free to reach out!
               </p>
@@ -60,15 +81,6 @@ export default function Contact() {
                     className="text-slate-600 hover:text-primary transition-colors"
                   >
                     craigverdie@gmail.com
-                  </a>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Phone className="text-primary w-5 h-5" />
-                  <a
-                    href="tel:+16063563701"
-                    className="text-slate-600 hover:text-primary transition-colors"
-                  >
-                    (606) 356-3701
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -94,12 +106,18 @@ export default function Contact() {
                   </a>
                 </div>
               </div>
-              
-              <div className="mt-8">
-                <Button className="bg-primary hover:bg-secondary text-white px-6 py-3 font-semibold transition-all duration-300 transform hover:scale-105">
-                  <Download className="mr-2 w-4 h-4" />
-                  Download Resume
-                </Button>
+              <br></br>
+              <div>
+                <a
+                  href="/attached_assets\Verdie_Craig_Resume.pdf"
+                  download
+                  className="inline-block"
+                >
+                  <Button className="bg-primary hover:bg-secondary text-white px-6 py-3 font-semibold transition-all duration-300 transform hover:scale-105">
+                    <Download className="mr-2 w-4 h-4" />
+                    Download Resume
+                  </Button>
+                </a>
               </div>
             </div>
             

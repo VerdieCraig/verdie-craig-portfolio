@@ -12,8 +12,8 @@ export default function Projects() {
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       status: "Deployed",
       type: "Full-Stack Web App",
-      github: "https://github.com/VerdieCraig",
-      demo: "#"
+      github: "https://github.com/VerdieCraig/IdeaFile",
+      demo: "https://ideafile.onrender.com"
     },
     {
       title: "Finance Analyzer CLI",
@@ -22,7 +22,7 @@ export default function Projects() {
       technologies: ["Python", "CSV Processing", "Data Analysis"],
       status: "Completed",
       type: "CLI Application",
-      github: "https://github.com/VerdieCraig"
+      github: "https://github.com/VerdieCraig/Smart-Personal-Finance-Analyzer"
     },
     {
       title: "RecipeBox MAUI App",
@@ -31,7 +31,7 @@ export default function Projects() {
       technologies: ["C#", ".NET MAUI", "Blazor"],
       status: "Completed",
       type: "Cross-Platform App",
-      github: "https://github.com/VerdieCraig"
+      github: "https://github.com/VerdieCraig/RecipeBoxXI"
     }
   ];
 

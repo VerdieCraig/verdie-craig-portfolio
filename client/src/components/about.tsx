@@ -13,7 +13,7 @@ export default function About() {
             <div className="md:col-span-2">
               <p className="text-lg text-slate-600 mb-6">I'm a detail-oriented software developer with a passion for problem-solving and building practical, user-focused applications. After a successful career as a Geography Faculty Member at Morehead State University, I've transitioned into software development, bringing analytical thinking, strong organizational skills, and excellent communication abilities.</p>
               
-              <p className="text-lg text-slate-600 mb-6">I'm passionate about lifelong learning—currently studying Portuguese and French (adding to my Spanish proficiency), working on becoming a data maven when I should be sleeping, and one day I'll learn to play the cello. This curiosity and drive to continuously grow drives my approach to software development.</p>
+              <p className="text-lg text-slate-600 mb-6">I'm passionate about lifelong learning—currently studying Portuguese and French (adding to my Spanish proficiency), working on becoming a data maven when I should be sleeping—and one day I'll learn to play the cello. This curiosity and drive to continuously grow informs my approach to software development.</p>
               
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <Card className="text-center p-4 bg-slate-50">
