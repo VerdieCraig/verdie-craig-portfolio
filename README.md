@@ -6,8 +6,7 @@
 [![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render)](https://render.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> A responsive full-stack portfolio site built with React and Node/Express, featuring select software projects, live demos, and contact functionality.  
-> Designed to highlight professional growth, full-stack experience, and creative technical work.
+> A responsive full-stack portfolio site built with React and Node/Express, featuring select software projects, live demos, and contact functionality. Designed to highlight professional growth, full-stack experience, and creative technical work.
 
 🌐 **Live Site:** [verdie-craig-portfolio.onrender.com](https://verdie-craig-portfolio.onrender.com)
 
@@ -79,14 +78,6 @@ npm run build
 /server
   server.js       # Express backend (handles contact form + email)
 ```
-
----
-
-## 🔭 Future Improvements
-
-- [ ] Add dark/light theme toggle  
-- [ ] Add blog or changelog section  
-- [ ] Integrate CI/CD pipeline for automatic deployment  
 
 ---
 
