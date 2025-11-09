@@ -6,22 +6,22 @@ export default function Skills() {
     {
       title: "Languages",
       icon: <Code className="w-8 h-8 text-primary" />,
-      skills: ["C#", "Python", "JavaScript", "SQL", "HTML/CSS"]
+      skills: ["C#", "Python", "JavaScript", "TypeScript", "SQL", "HTML/CSS"]
     },
     {
-      title: "Frameworks",
+      title: "Frameworks & Libraries",
       icon: <Layers className="w-8 h-8 text-primary" />,
-      skills: [".NET MAUI", "Blazor Hybrid", "React", "Node.js", "Express"]
+      skills: [".NET MAUI", "Blazor Hybrid", "React", "React Native", "Node.js", "Express", "Entity Framework Core" ]
     },
     {
-      title: "Tools",
+      title: "Tools & Platforms",
       icon: <Wrench className="w-8 h-8 text-primary" />,
-      skills: ["Git/GitHub", "Visual Studio", "VS Code", "PowerShell", "Git Bash"]
+      skills: ["Git/GitHub", "Visual Studio", "VS Code", "Render", "Vercel", "PowerShell", "Git Bash"]
     },
     {
       title: "Databases",
       icon: <Database className="w-8 h-8 text-primary" />,
-      skills: ["SQL Server", "MongoDB Atlas", "Entity Framework"]
+      skills: ["SQL Server", "MongoDB Atlas", "PostgreSQL", "Supabase" ]
     }
   ];
 
