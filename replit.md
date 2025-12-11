@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a personal portfolio website for Verdie Craig, a Junior Full-Stack Software Developer. The application is built as a single-page application (SPA) using React with TypeScript, featuring a modern design system powered by shadcn/ui components and Tailwind CSS. The portfolio showcases professional experience, technical skills, projects, and contact information in a clean, responsive layout.
+This is a personal portfolio website for Verdie Craig, a Full-Stack Software Developer. The application is built as a single-page application (SPA) using React with TypeScript, featuring a modern design system powered by shadcn/ui components and Tailwind CSS. The portfolio showcases professional experience, technical skills, projects, and contact information in a clean, responsive layout.
 
 ## User Preferences
 

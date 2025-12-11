@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6">
             <h3 className="text-2xl font-bold mb-2">Verdie Craig</h3>
-            <p className="text-slate-300">Junior Full-Stack Software Developer</p>
+            <p className="text-slate-300">Full-Stack Software Developer</p>
           </div>
           
           <div className="flex justify-center space-x-6 mb-8">

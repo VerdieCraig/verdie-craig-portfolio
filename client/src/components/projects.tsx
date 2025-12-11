@@ -6,32 +6,33 @@ import { Github, ExternalLink } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
+      title: "Protein Tracker",
+      description: "A mobile application for tracking daily protein and calorie intake with an intuitive interface for logging meals and monitoring nutritional goals.",
+      image: "/attached_assets/protein_tracker_logo.png", 
+      technologies: ["React Native", "Mobile Development", "UI/UX"],
+      status: "Google Play Store Closed Testing",
+      type: "Mobile App",
+      github: "https://github.com/VerdieCraig/protein-tracker" 
+    },
+    {
+      title: "Dark Lotus Website",
+      description: "A business website featuring modern design, responsive layout, and clean navigation. Integrates backend functonality for contact form and consultation scheduling.",
+      image: "/attached_assets/dark_lotus_screenshot.png",
+      technologies: ["React", "Web Design", "Responsive"],
+      status: "Deployed",
+      type: "Business Website",
+      github: "https://github.com/VerdieCraig/dark-lotus", 
+      demo: "https://darklotus.dev/"
+    },
+    {
       title: "IdeaFile MERN App",
       description: "A responsive web application for capturing and organizing project ideas. Built with the MERN stack and deployed to Render with GitHub integration.",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "/attached_assets/ideafile_screenshot.png",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       status: "Deployed",
       type: "Full-Stack Web App",
       github: "https://github.com/VerdieCraig/IdeaFile",
       demo: "https://ideafile.onrender.com"
-    },
-    {
-      title: "Finance Analyzer CLI",
-      description: "A command-line tool for parsing and analyzing CSV files of financial transactions with robust error handling and data validation.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["Python", "CSV Processing", "Data Analysis"],
-      status: "Completed",
-      type: "CLI Application",
-      github: "https://github.com/VerdieCraig/Smart-Personal-Finance-Analyzer"
-    },
-    {
-      title: "RecipeBox MAUI App",
-      description: "A cross-platform desktop and mobile application for managing personal recipes with full CRUD functionality and local storage.",
-      image: "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["C#", ".NET MAUI", "Blazor"],
-      status: "Completed",
-      type: "Cross-Platform App",
-      github: "https://github.com/VerdieCraig/RecipeBoxXI"
     }
   ];
 
@@ -47,7 +48,7 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-64 object-cover"
                 />
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between mb-4">

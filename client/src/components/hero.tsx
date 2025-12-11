@@ -23,9 +23,9 @@ export default function Hero() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Professional headshot */}
-          <div className="w-32 h-32 rounded-full mx-auto mb-8 overflow-hidden shadow-2xl border-4 border-white">
+          <div className="w-40 h-40 rounded-full mx-auto mb-8 overflow-hidden shadow-2xl border-4 border-white">
             <img
-              src="/attached_assets/portfoliopic_1752558584991.jpg"
+              src="/attached_assets/portfoliopic.jpg"
               alt="Verdie Craig - Professional Headshot"
               className="w-full h-full object-cover"
             />
@@ -36,7 +36,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-2xl mx-auto">
-            Junior Full-Stack Software Developer bringing academic rigor and soft skills to tech after a career in higher education
+            Full-Stack Software Developer delivering reliable, maintainable applications through clean architecture and thoughtful design
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

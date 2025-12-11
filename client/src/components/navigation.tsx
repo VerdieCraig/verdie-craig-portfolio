@@ -55,7 +55,7 @@ export default function Navigation() {
               onClick={() => scrollToSection("experience")}
               className="text-slate-600 hover:text-primary transition-colors"
             >
-              Experience
+              Education and Experience
             </button>
             <button
               onClick={() => scrollToSection("contact")}
@@ -104,7 +104,7 @@ export default function Navigation() {
                 onClick={() => scrollToSection("experience")}
                 className="block w-full text-left px-3 py-2 text-slate-600 hover:text-primary"
               >
-                Experience
+                Education and Experience
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
