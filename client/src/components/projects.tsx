@@ -10,9 +10,10 @@ export default function Projects() {
       description: "A mobile application for tracking daily protein and calorie intake with an intuitive interface for logging meals and monitoring nutritional goals.",
       image: "/attached_assets/protein_tracker_logo.png", 
       technologies: ["React Native", "Mobile Development", "UI/UX"],
-      status: "Google Play Store Closed Testing",
+      status: "Deployed to Google Play Store",
       type: "Mobile App",
-      github: "https://github.com/VerdieCraig/protein-tracker" 
+      github: "https://github.com/VerdieCraig/protein-tracker",
+      demo: "https://play.google.com/store/apps/details?id=com.darklotusdev.proteintracker"
     },
     {
       title: "Dark Lotus Website",

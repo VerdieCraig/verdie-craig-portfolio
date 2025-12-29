@@ -10,7 +10,7 @@ export default function Experience() {
       period: "Nov 2025 - Present",
       type: "work",
       description: [
-        "Developing and publishing mobile applications, including a protein tracker in Google Play closed testing",
+        "Developing and publishing mobile applications, including a protein tracker deployed to Google Play Store",
         "Managing the full product lifecycle from requirements and design through development, testing, and deployment"
       ]
     },
