@@ -19,7 +19,7 @@ export default function Projects() {
       title: "Dark Lotus Website",
       description: "A business website featuring modern design, responsive layout, and clean navigation. Integrates backend functionality for contact form and consultation scheduling.",
       image: "/attached_assets/dark_lotus_screenshot.png",
-      technologies: ["React", "Web Design", "Responsive"],
+      technologies: ["Web Development", "Javascript", "API Integration", "Serverless Architecture"],
       status: "Deployed",
       type: "Business Website",
       github: "https://github.com/VerdieCraig/dark-lotus", 
