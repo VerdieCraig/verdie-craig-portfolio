@@ -7,7 +7,7 @@ export default function Experience() {
     {
       title: "Software Developer",
       company: "Dark Lotus",
-      period: "Nov 2025 - Present",
+      period: "Mar 2025 - Present",
       type: "work",
       description: [
         "Developing and publishing mobile applications, including a protein tracker deployed to Google Play Store",
@@ -21,16 +21,6 @@ export default function Experience() {
       type: "education",
       description: [
         "Completed a project-based program focused on modern generative AI tools, workflows, and integration into software development"
-      ]
-    },
-    {
-      title: "Junior Software Developer",
-      company: "Self-Employed",
-      period: "Mar 2025 - Oct 2025",
-      type: "work",
-      description: [
-        "Designed and built full-stack and cross-platform applications, including a finance CLI tool, recipe manager, and idea-tracking web app",
-        "Deployed applications to the cloud using Git/GitHub and Agile practices with an emphasis on testing and maintainability"
       ]
     },
     {

@@ -56,7 +56,7 @@ npm install
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
+Then open [http://localhost:4444](http://localhost:4444) in your browser.
 
 To build for production:
 ```bash
@@ -83,4 +83,4 @@ npm run build
 
 ## 📄 License
 
-MIT © 2025 [Verdie A. Craig](https://github.com/VerdieCraig)
+MIT © 2026 [Verdie A. Craig](https://github.com/VerdieCraig)

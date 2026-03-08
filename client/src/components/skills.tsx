@@ -14,8 +14,6 @@ export default function Skills() {
       skills: [
         "React Native",
         "Expo",
-        ".NET MAUI",
-        "Blazor Hybrid",
         "React",
         "Node.js",
         "Express",
@@ -39,14 +37,12 @@ export default function Skills() {
         "Android Studio",
         "Render",
         "Vercel",
-        "Google Play Console",
-        "PowerShell",
-        "Git Bash"
+        "Google Play Console"
       ]
     }
   ];
 
-  const professionalSkills = [
+  /* const professionalSkills = [
     { title: "Teaching & Mentoring", icon: <GraduationCap className="w-6 h-6 text-primary" /> },
     { title: "Research & Analysis", icon: <Search className="w-6 h-6 text-primary" /> },
     { title: "Communication", icon: <MessageCircle className="w-6 h-6 text-primary" /> },
@@ -54,7 +50,7 @@ export default function Skills() {
     { title: "Problem Solving", icon: <Puzzle className="w-6 h-6 text-primary" /> },
     { title: "Team Leadership", icon: <UsersIcon className="w-6 h-6 text-primary" /> }
   ];
-
+ */
   return (
     <section id="skills" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
@@ -92,8 +88,8 @@ export default function Skills() {
             </div>
           </div>
 
-          {/* Professional Skills Subsection */}
-          <div>
+          {/* {/* Professional Skills Subsection */}
+         {/*  <div>
             <h3 className="text-2xl md:text-3xl font-semibold text-center mb-8 text-slate-800">
               Professional Skills
             </h3>
@@ -109,7 +105,7 @@ export default function Skills() {
                 </div>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

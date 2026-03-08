@@ -37,7 +37,7 @@ export default function Footer() {
           
           <div className="border-t border-slate-700 pt-8">
             <p className="text-slate-400">
-              © 2025 Verdie Craig. Built with passion for clean code and user experience.
+              © 2026 Verdie Craig. Built with passion for clean code and user experience.
             </p>
           </div>
         </div>
